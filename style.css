@@ -1,0 +1,120 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    background-color: rgb(194, 226, 98);
+}
+.navbar{
+    font-size: 2vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+h1{
+    text-align: center;
+    color: rgb(142, 165, 12);
+    padding-top: 1.5%;
+}
+header{
+    height: 80vh;
+    background-image: url(https://www.andbeyond.com/wp-content/uploads/sites/5/Amazon-Rain-Forest.jpg);
+    background-color: rgb(194, 226, 98);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    width: 100%;
+    background-color: rgb(100, 84, 70,0.5);
+    height: 15vh;
+    position: absolute;
+    top: 50%;
+}
+.intro{
+    padding: 3%;
+    text-align: center;
+}
+.colored_text{
+    color:rgb(75, 87, 9);
+}
+h2{
+    text-align: center;
+    font-size: 4vw;
+    padding: 7%;
+    color: rgb(75, 87, 9);;
+}
+.d-block{
+    width: 60%;
+    margin: auto;
+}
+.carousel{
+    width: 60%;
+    margin: auto;
+}
+footer{
+    font-style: italic;
+    padding-right: 50px;
+    padding-top: 50px;
+    color:rgb(75, 87, 9);
+    text-align: right;
+}
+.card{
+    width: 90%;
+    margin: auto;
+}
+.card-title{
+    color:rgb(75, 87, 9);
+    font-size: 3vw;
+}
+.card-text{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.alert{
+    background-color: rgba(186, 228, 63, 0.5);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.alert-link{
+    color: rgb(75, 87, 9);
+    font-style: italic;
+}
+.accordion{
+    width: 90%;
+    margin: auto;
+}
+.accordion-button {
+    color:rgb(75, 87, 9) !important;
+    font-size: 3vw; 
+}
+.accordion-button:not(.collapsed){
+    background-color: rgba(164, 204, 44, 0.5) !important;
+}
+.accordion-button:focus{
+    background-color: rgba(164, 204, 44, 0.5) !important;
+    box-shadow: 0px 0px 0px 5px rgb(194, 226, 98) !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(138, 167, 54)'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.accordion-button:active{
+   color:rgb(75, 87, 9) !important;
+   background-color:  rgb(194, 226, 98) !important;
+}
+.navbar-brand{
+    font-size: 2.5vw;
+}
+.img-fluid {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+.accordion-body{
+    max-width: 84%;
+    margin: auto;
+    display: block;
+    font-family: sans-serif;
+    font-weight: 700;
+}
